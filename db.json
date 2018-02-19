@@ -1,0 +1,291 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "name": "Dilwale Dulhania Le Jayenge",
+      "year": 1995,
+      "release": "1995-10-20",
+      "original_language": "Hindi",
+      "run_time": 190,
+      "user_score": 91,
+      "genre": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "poster": "dilwale.jpg",
+      "director": "Aditya Chopra",
+      "top_casts": [
+        "Shah Rukh Khan",
+        "Kajol",
+        "Amrish Puri",
+        "Anupam Kher",
+        "Satish Shah"
+      ],
+      "overview": "Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga."
+    },
+    {
+      "id": 2,
+      "name": "The Shawshank Redemption",
+      "year": 1994,
+      "release": "1994-09-22",
+      "original_language": "English",
+      "run_time": 144,
+      "user_score": 85,
+      "genre": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "shawshank.jpg",
+      "director": "Frank Darabont",
+      "top_casts": [
+        "Tim Robbins",
+        "Morgan Freeman",
+        "Bob Gunton",
+        "Clancy Brown",
+        "Mark Rolston"
+      ],
+      "overview": "Framed in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope."
+    },
+    {
+      "id": 3,
+      "name": "The Godfather",
+      "year": 1972,
+      "release": "1972-03-14",
+      "original_language": "English",
+      "run_time": 175,
+      "user_score": 85,
+      "genre": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "godfather.jpg",
+      "director": "Mario Puzo",
+      "top_casts": [
+        "Marlon Brando",
+        "Al Pacinon",
+        "James Caan",
+        "Richard S. Castellano",
+        "Robert Duvall"
+      ],
+      "overview": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge."
+    },
+    {
+      "id": 4,
+      "name": "Schindler's List",
+      "year": 1993,
+      "release": "1993-11-29",
+      "original_language": "English",
+      "run_time": 175,
+      "user_score": 83,
+      "genre": [
+        "Drama",
+        "History",
+        "War"
+      ],
+      "poster": "schindler.jpg",
+      "director": "Steven Spielberg",
+      "top_casts": [
+        "Liam Neeson",
+        "Ben Kingsley",
+        "Ralph Fiennes",
+        "Caroline Goodall",
+        "Jonathan Sagall"
+      ],
+      "overview": "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II."
+    },
+    {
+      "id": 5,
+      "name": "Jumanji",
+      "year": 1995,
+      "release": "1995-12-15",
+      "original_language": "English",
+      "run_time": 104,
+      "user_score": 69,
+      "genre": [
+        "Adventure",
+        "Fantasy",
+        "Family"
+      ],
+      "poster": "jumanji.jpg",
+      "director": "Joe Johnston",
+      "top_casts": [
+        "Robin Williams",
+        "Jonathan Hyde",
+        "Kirsten Dunst",
+        "Bradley Pierce",
+        "Bonnie Hunt"
+      ],
+      "overview": "When siblings Judy and Peter discover an enchanted board game that opens the door to a magical world, they unwittingly invite Alan -- an adult who's been trapped inside the game for 26 years -- into their living room. Alan's only hope for freedom is to finish the game, which proves risky as all three find themselves running from giant rhinoceroses, evil monkeys and other terrifying creatures."
+    },
+    {
+      "id": 6,
+      "name": "Beauty and the Beast",
+      "year": 2017,
+      "release": "2017-03-02",
+      "original_language": "English",
+      "run_time": 169,
+      "user_score": 68,
+      "genre": [
+        "Family",
+        "Fantasy",
+        "Romance"
+      ],
+      "poster": "beast.jpg",
+      "director": "Bill Condon",
+      "top_casts": [
+        "Emma Watson",
+        "Dan Stevens",
+        "Luke Evans",
+        "Kevin Kline",
+        "Josh Gad"
+      ],
+      "overview": "A live-action adaptation of Disney's version of the classic tale of a cursed prince and a beautiful young woman who helps him break the spell."
+    },
+    {
+      "id": 7,
+      "name": "Wonder Woman",
+      "year": 2017,
+      "release": "2017-03-02",
+      "original_language": "English",
+      "run_time": 151,
+      "user_score": 72,
+      "genre": [
+        "Action",
+        "Fantasy",
+        "Adventure"
+      ],
+      "poster": "wonder_woman.jpg",
+      "director": "Patty Jenkins",
+      "top_casts": [
+        "Gal Gadot",
+        "Chris Pine",
+        "Robin Wright",
+        "Danny Huston",
+        "David Thewlis"
+      ],
+      "overview": "An Amazon princess comes to the world of Man to become the greatest of the female superheroes."
+    },
+    {
+      "id": 8,
+      "name": "Baahubali: The Beginning",
+      "year": 2015,
+      "release": "2015-07-10",
+      "original_language": "Telugu",
+      "run_time": 159,
+      "user_score": 75,
+      "genre": [
+        "Action",
+        "War",
+        "Adventure",
+        "History"
+      ],
+      "poster": "baahubali.jpg",
+      "director": "S.S. Rajamouli",
+      "top_casts": [
+        "Prabhas",
+        "Rana Daggubati",
+        "Tamanna Bhatia",
+        "Anushka Shetty",
+        "Ramya Krishnan"
+      ],
+      "overview": "The young Shivudu is left as a foundling in a small village by his mother. By the time he’s grown up, it has become apparent that he possesses exceptional gifts. He meets the beautiful warrior/princess Avanthika and learns that her queen has been held captive for the last 25 years. Shividu sets off to rescue her, discovering his own origins in the process."
+    },
+    {
+      "id": 9,
+      "name": "Vikram Vedha",
+      "year": 2017,
+      "release": "2017-07-21",
+      "original_language": "Tamil",
+      "run_time": 147,
+      "user_score": 76,
+      "genre": [
+        "Action",
+        "Thriller",
+        "Romance"
+      ],
+      "poster": "vikram_vedha.jpg",
+      "director": "Pushkar-Gayathri",
+      "top_casts": [
+        "Madhavan",
+        "Vijay Sethupathi",
+        "Shraddha Srinath",
+        "Varalaxmi Sarathkumar",
+        "Kathir"
+      ],
+      "overview": "A notorious gangster Vedha surrenders himself to encounter specialist Vikram whom he challenges every step of the way by narrating his life events in the form of riddles that needs to be solved in order to capture him."
+    },
+    {
+      "id": 10,
+      "name": "Pulimurugan",
+      "year": 2016,
+      "release": "2016-10-07",
+      "original_language": "Malayalam",
+      "run_time": 161,
+      "user_score": 67,
+      "genre": [
+        "Action",
+        "Adventure"
+      ],
+      "poster": "pulimurugan.jpg",
+      "director": "Vysakh",
+      "top_casts": [
+        "Mohanlal",
+        "Jagapati Babu",
+        "Lal",
+        "Vinu Mohan",
+        "Bala"
+      ],
+      "overview": "The story revolves around the incidents that occur in the life of Murugan - a lorry driver who has vengeance against Tiger (Varayan Puli). Murugan lost his parents quite early and loves his brother more than anything in the universe. Even from his young age he has developed extraordinary skills that could aid him in killing tigers that create havoc in the forest settlement known as Puliyoor. He is not a hunter but he kills tiger that attack humans. The story moves into a few challenges that Murugan has to encounter in his life, both from wild animal and wild human beings. How he fights the enemies including tiger forms the crux of the story."
+    },
+    {
+      "id": 11,
+      "name": "The Star",
+      "year": 2017,
+      "release": "2017-11-15",
+      "original_language": "English",
+      "run_time": 86,
+      "user_score": 45,
+      "genre": [
+        "Animation",
+        "Comedy",
+        "Adventure"
+      ],
+      "poster": "thestar.jpg",
+      "director": "Timothy Reckart",
+      "top_casts": [
+        "Steven Yeun",
+        "Keegan-Michael Key",
+        "Aidy Bryant",
+        "Oprah Winfrey",
+        "Tyler Perry"
+      ],
+      "overview": "A small but brave donkey and his animal friends become the unsung heroes of the greatest story ever told, the first Christmas."
+    },
+    {
+      "id": 12,
+      "name": "Downsizing",
+      "year": 2017,
+      "release": "2017-12-22",
+      "original_language": "English",
+      "run_time": 140,
+      "user_score": 0,
+      "genre": [
+        "Science Fiction",
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "downsizing.jpg",
+      "director": "Alexander Payne",
+      "top_casts": [
+        "Matt Damon",
+        "Christoph Waltz",
+        "Hong Chau",
+        "Kristen Wiig",
+        "Rolf Lassgård"
+      ],
+      "overview": "A kindly occupational therapist undergoes a new procedure to be shrunken to four inches tall so that he and his wife can help save the planet and afford a nice lifestyle at the same time."
+    }
+  ],
+  "favorites": []
+}

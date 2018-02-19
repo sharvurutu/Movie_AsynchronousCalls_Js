@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Movie Cruiser</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Itim|Ubuntu" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="page-top">
+    <div class="container-fluid main-container">
+        <header>
+            <div class="container">
+                <div class="header-branding text-center"><img src="images/logo.png" class="logo mr-2">MovieCruiser</div>
+            </div>
+        </header>
+
+        <section class="d-flex flex-column p-1 p-sm-2 p-md-3" id="movie-section">
+            <h3 id="movie-section-heading" style="display: none">Popular Movies</h3>
+            <div id="movie-list" class="row p-0 px-md-3">
+                <div class="col-12 col-xl-6 movie-card zoomIn animated" id="movie-card" style="display: none">
+                    <div class="card m-3">
+                        <div class="card-body d-flex movie-details p-1">
+                            <img src="" class="rounded float-left movie-cover" alt="">
+                            <div class="movie-info p-2">
+                                <div class="movie-header mb-2">
+                                    <Strong class="movie-name"></Strong>
+                                    <span class="text-mute release-year"></span>
+                                    <i class="far fa-heart favorite ml-1"></i>
+                                    <span class="float-right rating">
+                                        <span>7.5</span>&nbsp;
+                                        <i class="fas fa-star"></i>
+                                    </span>
+                                    <div class="extra-info text-muted">
+                                        <i class="far fa-calendar-alt mr-1"></i>
+                                        <span class="release-date mr-3"></span>
+
+                                        <i class="far fa-clock mr-1"></i>
+                                        <span class="movie-length"></span>
+
+                                        <div class="genre float-right"></div>
+                                    </div>
+                                </div>
+                                <div class="story-line mb-2">
+                                    <span></span>
+                                </div>
+                                <div class="cast-crew mb-2">
+                                    <div class="director">
+                                        <strong>Director: </strong>
+                                        <span></span>
+                                    </div>
+                                    <div class="casts">
+                                        <strong>Top Billed Casts: </strong>
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="pagination" class="p-0 px-md-3 mt-2" style="display: none">
+                <span id="pagination-info">Displaying <span id="index-from"></span> to <span id="index-to"></span> of <span id="movie-total"></span> movies.</span>
+                <button class="button float-right" id="page-next-btn">Next</button>
+                <button class="button float-right mr-3" id="page-prev-btn" style="display: none">Previous</button>
+            </div>
+        </section>
+
+        <section class="d-flex flex-column p-1 p-sm-2 p-md-3" id="fav-section">
+            <h3 id="fav-section-heading" style="display: none">Favorite Movies</h3>
+            <div id="favorites" class="d-flex">
+                <div class="favorite-card m-2 position-relative zoomIn animated" style="display: none">
+                    <img class="movie-cover" src="" alt="">
+                    <div class="overlay position-absolute p-1">
+                        <i class="fas fa-times float-right remove"></i>
+                        <div class="overlay-content text-center d-flex flex-column mt-4">
+                            <h4 class="movie-name"></h4>
+                            <h5 class="release-year"></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
